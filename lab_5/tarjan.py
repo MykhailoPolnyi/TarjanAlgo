@@ -1,6 +1,6 @@
 def tarjan(graph):
     if type(graph) != list:
-        raise (ValueError(f"Expected graph presentation: list, got: {type(graph)}"))
+        raise (ValueError(f"Expected graph presentation, expected: list, got: {type(graph)}"))
 
     def find_scc(entry_vertex):
         index_of[entry_vertex] = index[0]

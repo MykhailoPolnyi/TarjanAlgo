@@ -1,4 +1,4 @@
-from lab_5.tarjan import tarjan
+from lab_5 import tarjan
 import unittest
 
 
